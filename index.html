@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<title>CSIT T-20</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<marquee direction="Right" behaviour="alternate" bg color="red">Welcome To 7th CSIT T-20 Cup</marquee>
+				<img src="1.png" width="100" height="95">
+				<div class="background">
+					<body background="3.jpg">
+						<div class="right">
+			<ul>
+				<li><a href="live.html">live</a></li>
+				<li><a href="score.html">Score</a></li>
+				<li><a href="photo.html">Photo</a></li>
+				<li><a href="Schedule.html">Schedule</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+			<div class="mar">
+				<marquee direction="Right" behaviour="alternate" bg color="red"></marquee>
+			</div>
+		</div>
+		</div>
+	</div>
+	</header>
+<style>
+.mySlides {display:none;}
+</style>
+<h2 class="w3-center">Home</h2>
+
+<div class="w3-content w3-section">
+  <img class="mySlides" src="pic3.jpg" height="500" width="1500">
+  <img class="mySlides" src="pic2.jpg" height="500" width="1500"> 
+  <img class="mySlides" src="pic1.jpg" height="500" width="1500">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+<h3><b>CSIT T-20 CUP</b></h3>
+	</body>
+</html>
