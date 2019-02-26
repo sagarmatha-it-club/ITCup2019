@@ -1,0 +1,55 @@
+.logo { /*College Logo NOT Website logo*/
+    text-align:center; 
+    max-width:3rem;
+    margin-right: 0.4rem;
+}
+
+.heading {
+    margin-top: 8%;
+    font-weight: 500;
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+nav a {
+    margin-top: 15%;
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+    border-bottom: 1px solid #6e45e1;
+}
+
+.vs {
+    margin-left: 3rem;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.card {
+    max-width: 40rem;
+    color: #fff !important;
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+    margin-top:1.4rem;
+    margin-left: 5rem;
+}
+
+h5 {
+    font-weight: 600;
+}
