@@ -1,5 +1,6 @@
 .t20_logo {
-    max-width: 7rem;
+    max-height: 5rem;
+    min-width: 3rem;
     margin-top:1rem;
 }
 
@@ -22,8 +23,11 @@
     text-fill-color: transparent;
 }
 
+nav {
+    margin-top: 10%;
+}
+
 nav a {
-    margin-top: 15%;
     background-color: #89d4cf;
     background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
     -webkit-background-clip: text;
@@ -36,8 +40,9 @@ nav a {
     font-size: 1.3rem;
 }
 
-.nav-link:focus, .nav-link:hover {
-    border-bottom: 1px solid #6e45e1;
+nav a:focus, nav a:hover {
+    border-bottom: 2px solid #6e45e1;
+    text-decoration: none;
 }
 
 .vs {
@@ -52,9 +57,29 @@ nav a {
     background-color: #89d4cf;
     background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
     margin-top:1.4rem;
-    margin-left: 5rem;
+    
 }
 
 h5 {
     font-weight: 600;
+}
+
+@media (min-width: 978px) {
+    .card {
+      margin-left: 5vw;
+    }
+}
+
+
+@media (max-width: 978px) {
+    .heading {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    nav {
+        margin-top: 1rem;
+    }
 }
