@@ -72,6 +72,11 @@ h5 {
     font-weight: 600;
 }
 
+.winner {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+
 @media (min-width: 978px) {
     .card {
       margin-left: 5vw;
