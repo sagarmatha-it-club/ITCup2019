@@ -52,6 +52,7 @@ nav a:focus, nav a:hover {
 }
 
 .card {
+    opacity: 0.9;
     max-width: 40rem;
     color: #fff !important;
     background-color: #89d4cf;
@@ -61,7 +62,8 @@ nav a:focus, nav a:hover {
 }
 
 .card-schedule {
-    max-width: 45rem;
+    max-width: 50rem;
+    opacity: 0.9;
 }
 
 .score {
